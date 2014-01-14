@@ -1,0 +1,58 @@
+@-moz-document domain("news.ycombinator.com") {
+	* {
+		font-family: sans-serif !important;
+	}
+
+	td.title {
+		font-size: medium !important;
+	}
+
+	a {
+		color: #7F9F7F !important;
+	}
+
+	td.default a, td.title a:link, span.comment a:link {
+		color: #7F9F7F !important;
+	}
+
+	.comment {
+		color: #D4C4A9 !important;
+	}
+
+	font {
+		color: inherit !important;
+		font-family: inherit !important;
+		font-size: inherit !important;
+	}
+
+	td.title a:visited,  span.comment a:visited {
+		color: #CC9393 !important;
+	}
+
+	span.yclinks a, td.default span.comhead a, td.subtext a, td.subtext span {
+		color: #B3B5AF !important;
+	}
+
+	td.default span.comhead a, td.subtext a {
+		font-weight: bold;
+	}
+
+	body > center > table > tbody > tr:first-child > td {
+		background-color: #505050 !important;
+	}
+
+	body, body > center > table {
+		background-color: #404040 !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	code, pre {
+		color: #CC9393 !important;
+		background: #505050 !important;
+	}
+
+	a:hover {
+		background: #505050 !important;
+	}
+}
